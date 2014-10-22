@@ -1,0 +1,167 @@
+@import "compass";
+@import "susy";
+@import "breakpoint";
+@import "font-awesome-compass";
+@import "font-awesome";
+
+
+@import "compass/reset";
+@import "partials/variables";
+@import "partials/placeholders";
+@import "partials/hint/hint";
+
+
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+*{
+	@include transition(all 2s);
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+
+body{
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
+	margin: 0px;
+	padding: 0px;
+	color: #555555;
+	min-width: 320px;
+}
+
+.head,.main,.foot{
+	width:100%;
+}
+
+
+.main{
+	min-height:900px;
+	@include clearfix;
+}
+
+.foot{
+	background: #333;
+	text-align: center;
+	color: #f2f2f2;
+	height: 100px;
+	line-height: 100px;
+}
+
+.inner{
+	@include container(80%);
+}
+
+
+.head{
+	background: #333;
+	height:200px;
+
+	.logo{
+		font-family: 'Lobster', cursive;
+		display: block;
+		color: #f2f2f2;
+		font-size: 4em;
+		text-align: center;
+		line-height: 200px;
+		text-decoration: none;
+	}
+}
+
+.search-form{
+	margin: 25px 0;
+	#q{
+		margin: 0 auto;
+		display: block;
+		padding: 5px 12px;
+		border-radius: 5px;
+		outline: none;
+		border: 3px solid #333;
+		width: 200px;
+		box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+		@extend .hint--top;
+		@include transition(all 2s);
+		&:focus{
+			width: 300px;
+			@include transition(all 2s);
+		}
+	}
+}
+
+.result-grid{
+		@include clearfix;
+	.item{
+		@include span(3);
+		.item-inner{
+			@extend .segment;
+			height: auto;
+		}
+	}
+}
+
+.item{
+	// -webkit-transform-style: preserve-3d;
+	// -moz-transform-style: preserve-3d;
+	// -ms-transform-style: preserve-3d;
+	// -o-transform-style: preserve-3d;
+	// transform-style: preserve-3d;
+	// -webkit-transition-property: -webkit-transform;
+	// -moz-transition-property: -moz-transform;
+	// transition-property: transform;
+	// -webkit-transition-duration: 1s;
+	// -moz-transition-duration: 1s;
+	// transition-duration: 1s;
+	// -webkit-transform-origin: right center;
+	// -moz-transform-origin: right center;
+	// -ms-transform-origin: right center;
+	// -o-transform-origin: right center;
+	// transform-origin: right center;
+
+}
+
+
+.item:hover {
+	// @include transform(translateX(-100%) rotateY(-180deg)) 
+	// -webkit-transform: translateX(-100%) rotateY(-180deg);
+	// -moz-transform: translateX(-100%) rotateY(-180deg);
+	// -ms-transform: translateX(-100%) rotateY(-180deg);
+	// -o-transform: translateX(-100%) rotateY(-180deg);
+	// transform: translateX(-100%) rotateY(-180deg);
+}
+.item-inner{
+
+
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+
+.item-inner{
+	text-align:center;
+
+	figure{
+		overflow: hidden;
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+	}
+	h3{
+		margin: 15px 0;
+	}
+	.clone,.download-zip,.git-page{
+		font-size: 30px;
+		color: #333;
+		@extend .hint--bounce;
+		@extend .hint--top;
+	}
+	.clone{
+		float:left;
+		
+	}
+	.download-zip{
+		float: right;
+	}
+}

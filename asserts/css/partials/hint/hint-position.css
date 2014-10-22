@@ -1,0 +1,69 @@
+/*
+Error: Undefined mixin 'arrow-border-color'.
+        on line 61 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss, in `arrow-border-color'
+        from line 61 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss
+
+56: 
+57: 
+58: /**
+59:  * set default color for tooltip arrows
+60:  *\/
+61: @include arrow-border-color($defaultColor, 'false');
+62: 
+63: /**
+64:  * top tooltip
+65:  *\/
+66: .#{$prefix}top {
+
+Backtrace:
+D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss:61:in `arrow-border-color'
+D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss:61
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/engine.rb:268:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+C:/Ruby200-x64/bin/compass:23:in `load'
+C:/Ruby200-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'arrow-border-color'.\A         on line 61 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss, in `arrow-border-color'\A         from line 61 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-position.scss\A \A 56: \A 57: \A 58: /**\A 59:  * set default color for tooltip arrows\A 60:  */\A 61: @include arrow-border-color($defaultColor, 'false');\A 62: \A 63: /**\A 64:  * top tooltip\A 65:  */\A 66: .#{$prefix}top {"; }

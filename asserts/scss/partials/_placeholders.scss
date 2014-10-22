@@ -1,0 +1,13 @@
+.segment {
+	position: relative;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+	margin: 1em 0;
+	padding: 1em;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}

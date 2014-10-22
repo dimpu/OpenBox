@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$prefix".
+        on line 13 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-effects.scss
+
+8:  * 	2) hint--bounce
+9:  *
+10:  *\/
+11: 
+12: // Remove animation from tooltips.
+13: .#{$prefix}no-animate {
+14: 	&:before, &:after {
+15: 		@include vendor('transition-duration', 0ms);
+16: 	}
+17: }
+18: 
+
+Backtrace:
+D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-effects.scss:13
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/script/tree/interpolation.rb:100:in `_perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:526:in `block in run_interp_no_strip'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:524:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:524:in `run_interp_no_strip'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:531:in `run_interp'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:399:in `visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/engine.rb:268:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+C:/Ruby200-x64/bin/compass:23:in `load'
+C:/Ruby200-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$prefix\".\A         on line 13 of D:/xampp/htdocs/learn/github/OpenBox/asserts/scss/partials/hint/hint-effects.scss\A \A 8:  * 	2) hint--bounce\A 9:  *\A 10:  */\A 11: \A 12: // Remove animation from tooltips.\A 13: .#{$prefix}no-animate {\A 14: 	&:before, &:after {\A 15: 		@include vendor('transition-duration', 0ms);\A 16: 	}\A 17: }\A 18: "; }
