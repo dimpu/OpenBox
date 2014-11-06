@@ -3260,13 +3260,21 @@ body {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
+/* line 88, ../scss/style.scss */
+.search-form #language {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #333;
+  padding: 4px;
+  width: 400px;
+}
 
-/* line 90, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .result-grid {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 92, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .result-grid .item {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3276,12 +3284,12 @@ body {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
-/* line 94, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .result-grid .item .item-inner {
   height: auto;
 }
 
-/* line 130, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .item-inner {
   left: 0;
   right: 0;
@@ -3290,11 +3298,11 @@ body {
   position: absolute;
 }
 
-/* line 141, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .item-inner {
   text-align: center;
 }
-/* line 144, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .item-inner figure {
   overflow: hidden;
   border-radius: 50%;
@@ -3302,20 +3310,25 @@ body {
   width: 200px;
   margin: 0 auto;
 }
-/* line 151, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
+.item-inner figure img {
+  width: 283px;
+  margin-left: -52px;
+}
+/* line 162, ../scss/style.scss */
 .item-inner h3 {
   margin: 15px 0;
 }
-/* line 154, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 .item-inner .clone, .item-inner .download-zip, .item-inner .git-page {
   font-size: 30px;
   color: #333;
 }
-/* line 160, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .item-inner .clone {
   float: left;
 }
-/* line 164, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 .item-inner .download-zip {
   float: right;
 }

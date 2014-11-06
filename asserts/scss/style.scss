@@ -85,6 +85,13 @@ body{
 			@include transition(all 2s);
 		}
 	}
+	#language {
+		display: block;
+		margin: 20px auto;
+		border: 1px solid #333;
+		padding: 4px;
+		width: 400px;
+	}
 }
 
 .result-grid{
@@ -147,6 +154,10 @@ body{
 		height: 200px;
 		width: 200px;
 		margin: 0 auto;
+		img{
+			width: 283px;
+			margin-left: -52px;
+		}
 	}
 	h3{
 		margin: 15px 0;
