@@ -4,7 +4,7 @@ require 'breakpoint';
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "http://localhost/learn/github/OpenBox/asserts/"
+http_path = "http://dimpu.github.io/OpenBox/asserts/"
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "img"
