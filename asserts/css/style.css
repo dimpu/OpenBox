@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.eot?1413256930);
-  src: url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.eot?&1413256930#iefix) format("embedded-opentype"), url(http://localhost/learn/github/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.woff?1413256930) format("woff"), url(http://localhost/learn/github/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.ttf?1413256930) format("truetype"), url(http://localhost/learn/github/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.svg?1413256930#fontawesomeregular) format("svg");
+  src: url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.eot?&1413256930#iefix) format("embedded-opentype"), url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.woff?1413256930) format("woff"), url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.ttf?1413256930) format("truetype"), url(http://dimpu.github.io/OpenBox/asserts/fonts/font-awesome/fontawesome-webfont.svg?1413256930#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
